@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Duraisamy</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Duraisamy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assets/durai profile.png" class="img1"  alt="Duraisamy profile picture" />
+      </div>
+      <div class="section_text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Duraisamy</h1>
+        <p class="section_text_p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2">
+            <a
+              href="./assets/Duraisamyresume.pdf"
+              download="resume"
+              class="download-btn"
+              >Download CV</a
+          </button>
+          <Button class="btn btn-color-1" onclick=" location.href='#contact'">
+            Contact Info
+
+          </Button>
+        </div>
+        <div id="socials-container">
+          <i class="fa-brands fa-linkedin" class="icon" 
+          onclick="location.href='https://linkedin.com/in/duraisamy-v'"></i>
+          <i class="fa-brands fa-github" class="icon"
+          onclick="location.href='https://github.com/duraisamy-git'"></i>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section-text-p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic_container">
+          <img src="./assets/appu profile.png" 
+          alt="profile picture" 
+          class="about-pic" 
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <i class="fa-solid fa-medal" class="icon-medal"></i>
+              <h3>Experience</h3>
+              <p>0-1 years  <br /> Full Stack Developement</p>
+            </div>
+            <div class="details-container">
+              <i class="fa-solid fa-graduation-cap" class="gap"></i>
+            <h3>Education</h3>
+            <p>B.E-Mechanical <br />Bachelors Degree</p>
+            </div>
+            
+          
+        </div>
+        <div class="text-container">
+          <p>
+            I'm a Full Stack Developer.Proficient inboth front-end and back-end technologies like javascript, react, nodejs and mongodb. i am adept at seamlessly
+            ingergrating user interfaces with robust server-side functionalities.
+
+            my passion is creating efficient websits. strong problem-solving abilities and a dedication to staying
+            updated and always seeking opportunities to learn and intergrate emerging technologies into my work. 
+          </p>
+        </div>
+        </div>
+      </div>
+      <div class="scroll">
+        <i class="fa-solid fa-angles-down" onclick="location.href='#skills'"></i>
+      </div>
+      
+    </section>
+    <section id="skills">
+      <p class="section-text-p1">Explore MY</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Frontend Developement</h2>
+            <div class="article-container">
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>Boostrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>React JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>UI/UX </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Backend Developement</h2>
+            <div class="article-container">
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>Node Js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>Express Js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-square-check"></i>
+                <div>
+                  <h3>Git-Github</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll">
+        <i class="fa-solid fa-angles-down" onclick="location.href='#projects'"></i>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section-text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/weather.png" 
+            alt="Project 1"
+            class="project-img"
+            />
+          </div>
+          <h2 class="skills-sub-title">Weather App</h2>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/e-commerce.png" 
+            alt="Project 2"
+            class="project-img"
+            />
+          </div >
+          <h2 class="skills-sub-title">E-website</h2>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/food1.png" 
+            alt="Project 3"
+            class="project-img"
+            />
+          </div>
+          <h2 class="skills-sub-title">Food Page</h2>
+        </div>
+      </div>
+      </div>
+      <div class="scroll">
+        <i class="fa-solid fa-angles-down" onclick="location.href='#contact'"></i>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section-text-p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <i class="fa-solid fa-envelope" class="contact-icon"></i>
+          <p><a href="mailto:duraisamy22122000@gmail.com">duraisamy22122000@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <i class="fa-brands fa-linkedin" class="contact-icon"></i>
+          <p><a href="https://linkedin.com/in/duraisamy-v">linkedin</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-coontainer">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="footer-p">Copyright &#169; 2023 Durai Samy. All Rights Reserved</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
